@@ -11,6 +11,7 @@ namespace MVCxUnitTestExample.Web.Repository
     {
         private  MvcXUnitTestDBContext _context { get; }
         private DbSet<T> _dbSet { get;}
+
         public Repository(MvcXUnitTestDBContext context)
         {
             this._context = context;
